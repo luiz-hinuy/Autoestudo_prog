@@ -15,17 +15,17 @@ var game = new Phaser.Game(config);
 var peixe;
 
 function preload() {
-    this.load.image('mar', 'Exercicio_peixe/Assets/bg_azul-claro.png');
+    this.load.image('mar', 'exercicio_peixe/assets/bg_azul-claro.png');
 
-    this.load.image('logo', 'Exercicio_peixe/Assets/logo-inteli_branco.png');
+    this.load.image('logo', 'exercicio_peixe/assets/logo-inteli_branco.png');
 
-    this.load.image('peixe', 'Exercicio_peixe/Assets/Peixes/peixe_serio.png');
+    this.load.image('peixe', 'exercicio_peixe/assets/Peixes/peixe_serio.png');
 
-    this.load.image('concha', 'Exercicio_peixe/Assets/Peixes/concha.png');
+    this.load.image('concha', 'exercicio_peixe/assets/Peixes/concha.png');
 
-    this.load.image('baiacu', 'Exercicio_peixe/Assets/Peixes/baiacu.png');
+    this.load.image('baiacu', 'exercicio_peixe/assets/Peixes/baiacu.png');
 
-    this.load.image('peixe_turquesa', 'Exercicio_peixe/Assets/Peixes/peixe_turquesa.png')
+    this.load.image('peixe_turquesa', 'exercicio_peixe/assets/Peixes/peixe_turquesa.png')
 }
 
 function create() {
